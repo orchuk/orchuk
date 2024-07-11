@@ -1,13 +1,21 @@
 
+
 /* #region general */
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  background-color: antiquewhite;
+}
 .container {
+  height: min-content;
+  border: 5px solid brown;
+  border-radius: 10px;
   margin: 0;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 .project {
@@ -55,6 +63,7 @@
 .lolly-container {
   position: relative;
   z-index: 5;
+  transform: scale(1.2);
 }
 
 @keyframes lick {
